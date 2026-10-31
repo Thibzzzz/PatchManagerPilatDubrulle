@@ -1,0 +1,41 @@
+{
+  "_commentaire": "Données fictives utilisées par le paramètre -Simulation pour tester la logique sans parc Windows. PC01 conforme, PC02 non conforme, PC03 éteint, PC04 WinRM désactivé.",
+  "Machines": [
+    {
+      "Name": "PC01", "Ping": true, "WinRM": true,
+      "Inventory": {
+        "ComputerName": "PC01", "Manufacturer": "VMware, Inc.", "Model": "VMware Virtual Platform",
+        "BiosVersion": "VMW71.00V.21100432.B64.2301110304", "OSCaption": "Microsoft Windows 11 Professionnel",
+        "OSVersion": "10.0.26100", "OSBuild": "26100", "OSDisplayVersion": "24H2", "Architecture": "64 bits",
+        "LastBootUpTime": "2026-10-27T08:12:00", "RamGB": 8, "SystemDrive": "C:", "DiskFreeGB": 41.3, "DiskSizeGB": 79.4,
+        "HotFixCount": 5, "LastHotFixDate": "2026-10-15T00:00:00", "LastHotFixId": "KB5043080",
+        "WUServiceStatus": "Running", "WUServiceStartType": "Manual"
+      },
+      "HotFixes": [
+        { "HotFixID": "KB5043080", "Description": "Security Update", "InstalledOn": "2026-10-15T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" },
+        { "HotFixID": "KB5044033", "Description": "Update",          "InstalledOn": "2026-10-15T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" },
+        { "HotFixID": "KB5043937", "Description": "Security Update", "InstalledOn": "2026-10-02T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" },
+        { "HotFixID": "KB5042099", "Description": "Update",          "InstalledOn": "2026-09-11T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" },
+        { "HotFixID": "KB5027397", "Description": "Update",          "InstalledOn": null,                  "InstalledBy": "" }
+      ]
+    },
+    {
+      "Name": "PC02", "Ping": true, "WinRM": true,
+      "Inventory": {
+        "ComputerName": "PC02", "Manufacturer": "Microsoft Corporation", "Model": "Virtual Machine",
+        "BiosVersion": "Hyper-V UEFI Release v4.1", "OSCaption": "Microsoft Windows 10 Professionnel",
+        "OSVersion": "10.0.19045", "OSBuild": "19045", "OSDisplayVersion": "22H2", "Architecture": "64 bits",
+        "LastBootUpTime": "2026-10-02T17:40:00", "RamGB": 4, "SystemDrive": "C:", "DiskFreeGB": 12.8, "DiskSizeGB": 59.5,
+        "HotFixCount": 3, "LastHotFixDate": "2026-09-10T00:00:00", "LastHotFixId": "KB5043937",
+        "WUServiceStatus": "Stopped", "WUServiceStartType": "Manual"
+      },
+      "HotFixes": [
+        { "HotFixID": "KB5043937", "Description": "Security Update", "InstalledOn": "2026-09-10T00:00:00", "InstalledBy": "PC02\\admin" },
+        { "HotFixID": "KB5044033", "Description": "Update",          "InstalledOn": "2026-09-10T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" },
+        { "HotFixID": "KB5011048", "Description": "Update",          "InstalledOn": "2026-06-14T00:00:00", "InstalledBy": "NT AUTHORITY\\SYSTEM" }
+      ]
+    },
+    { "Name": "PC03", "Ping": false, "WinRM": false },
+    { "Name": "PC04", "Ping": true,  "WinRM": false }
+  ]
+}
