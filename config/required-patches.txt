@@ -1,0 +1,7 @@
+﻿# Correctifs obligatoires, un KB par ligne
+# KB relevés sur les postes du labo (03-Get-PatchInventory.ps1) et sur le poste d'administration (-Local)
+KB5129195   Security Update (installé sur PC01/PC02, 13/09/2026)
+KB5124007   Security Update (installé sur PC01/PC02, 13/09/2026)
+KB5126052   Update (installé sur PC01/PC02, 13/09/2026)
+KB5121794   Update (installé sur PC01/PC02, 13/09/2026)
+KB5127648   Security Update d'octobre 2026 (présent sur le poste d'administration, absent des VMs)

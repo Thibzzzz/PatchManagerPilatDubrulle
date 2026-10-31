@@ -1,0 +1,16 @@
+# Résultats d'exécution : contiennent des informations sensibles sur le parc
+output/
+
+# Identifiants chiffrés (DPAPI) et exports PowerShell
+*.cred.xml
+*.clixml
+
+# Fichiers temporaires / éditeurs / système
+*.log
+*.eml
+*.zip
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
